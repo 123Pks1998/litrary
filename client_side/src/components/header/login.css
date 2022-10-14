@@ -1,0 +1,56 @@
+.main_login {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(172, 207, 195);
+}
+
+.login_first_child {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+.login_first_child input {
+    display: flex;
+    margin: 35px 0 0px 30px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login_first_child button {
+    width: 100px;
+    margin: 35px 0 0 30px;
+    padding: 0 5px 5px 5px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: white;
+    font-variant: small-caps;
+    border: solid 2px rgb(89, 191, 56);
+    background-color: rgb(133, 69, 176);
+}
+
+.login_first_child button:hover {
+    background-color: green;
+    border: sloid 2px red;
+    transition-duration: 2000ms;
+}
+
+.signUp_link {
+    position: absolute;
+    bottom: 0;
+    font-weight: 500;
+    margin-left: 150px;
+}
+
+.signUp_link:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px aqua;
+}

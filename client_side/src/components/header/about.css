@@ -1,0 +1,108 @@
+.about_main {
+    width: 100%;
+    background-color: #fff;
+}
+
+.first_child {
+    display: flex;
+    float: left;
+    width: 70%;
+    margin: 10px 0 10px 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: fit-content;
+    background-color: rgb(98, 131, 131);
+
+}
+
+.first_child span {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pic {
+    border-radius: 5px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px 10px 10px;
+}
+
+.second_child {
+    display: flex;
+    float: left;
+    width: 24%;
+    height: 250px;
+    justify-content: center;
+    margin: 10px 0 10px 30px;
+    /* background-color: aquamarine; */
+}
+
+.second_child span {
+    height: fit-content;
+    width: 400px;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    font-variant: small-caps;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(230, 213, 213);
+}
+
+.gap {
+    clear: both;
+    height: 200px;
+}
+
+.third_child {
+    display: inline-flex;
+    width: 100%;
+    height: 250px;
+    clear: both;
+    border-radius: 3px;
+    /* margin: 0 20px 20px 10px; */
+    background-color: rgb(186, 207, 171);
+}
+
+.third_child a {
+    position: relative;
+    background-color: rgb(184, 93, 93);
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0 10px 5px 10px;
+    margin: 190px 20px 10px 60%;
+    font-variant: small-caps;
+    font-style: italic;
+    border: solid 3px rgb(38, 170, 211);
+}
+
+.third_child a:hover {
+
+    background-color: rgb(56, 150, 78);
+}
+
+.information {
+    display: flex;
+    box-sizing: border-box;
+    height: 200px;
+    width: 300px;
+    background-color: #fff;
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 25px 0 0 40px;
+    font-variant: small-caps;
+    justify-content: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

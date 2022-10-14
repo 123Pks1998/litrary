@@ -1,0 +1,40 @@
+.navbar {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 45px;
+    background-color: rgb(83, 22, 78);
+    color: white;
+}
+
+
+.nav_links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 75%;
+}
+
+.poet,
+.poems,
+.ebooks,
+.gazals,
+.shyari {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px 20px;
+    margin: 0 10px;
+    font-weight: 500;
+    cursor: pointer;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.poet :hover,
+.poems :hover,
+.ebooks :hover,
+.gazals :hover,
+.shyari :hover {
+    color: rgb(243, 217, 20);
+}

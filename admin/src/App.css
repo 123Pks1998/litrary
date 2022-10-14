@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar_ul {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgb(202, 167, 114);
+}
+
+.navbar_ul li {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.poet_link,
+.gazal_link,
+.shyari_link,
+.poems_link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+/* home page style */
+
+.adminHome {
+  display: inline;
+  text-align: center;
+}
+
+
+.admin_text {
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.admin_text p {
+  width: fit-content;
+  padding: 0px 10px 5px 10px;
+  background-color: rgb(249, 242, 242);
+  font-variant: small-caps;
+  font-size: 25px;
+  font-weight: 500;
+
+}
+
+.admin_text2 {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.admin_text2 p {
+  width: fit-content;
+  padding: 0px 10px 5px 10px;
+  background-color: rgb(249, 249, 242);
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.components_list {
+  display: flex;
+  margin-left: 262px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+.components {
+  display: grid;
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 282px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* poet page style */
+
+.poet_page {
+  display: grid;
+  width: 100%;
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.poet_page2 {
+  margin-left: 250px;
+
+}
+
+.poet_page input {
+  display: flex;
+  width: 250px;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.poet_submit {
+  width: 70px;
+  padding: 3px 5px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 2px;
+  background-color: rgb(94, 99, 100);
+  color: white;
+}
+
+.poet_submit:hover {
+  color: aqua;
+}
+
+/* gazal page style */
+.gazal_subtitle {
+  display: flex;
+  width: 250px;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 14px;
+  text-transform: capitalize;
+}

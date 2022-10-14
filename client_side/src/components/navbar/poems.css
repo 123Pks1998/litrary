@@ -1,0 +1,46 @@
+.box {
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.poemname {
+
+    color: #000;
+    font-size: 25px;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: fit-content;
+    text-align: center;
+    margin-left: 5px;
+
+}
+
+.poemcard {
+    border-radius: 3px;
+    background-color: rgb(221, 132, 221);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-variant: small-caps;
+}
+
+.poemcard:hover {
+    background-color: rgb(200, 117, 177);
+    transition-duration: 1000ms;
+}
+
+.poem_title {
+    color: #000;
+    text-align: center;
+    font-variant: small-caps;
+
+}
+
+.poem_text {
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
